@@ -1,0 +1,95 @@
+<html>
+    <HEAD>
+        <title>Operatin Systems (OS)</title>
+        <meta charset="UTF-8">
+    </HEAD>
+    <body>
+        <h1>Operating Systems (OS)</h1>
+        <img src="pro.png">
+        <h2><strong>-Introduction:</strong></h2>
+        <p>
+            An operating system (OS) is system software that manages computer hardware, software resources, and provides common services for computer programs.
+           Time-sharing operating systems schedule tasks for efficient use of the system and may also include accounting software for cost allocation of processor time, mass storage, printing, and other resources.
+           For hardware functions such as input and output and memory allocation, the operating system acts as an intermediary between programs and the computer hardware, although the application code is usually executed directly by the hardware and frequently makes system calls to an OS function or is interrupted by it. Operating systems are found on many devices that contain a computer – from cellular phones and video game consoles to web servers and supercomputers.
+           The dominant general-purpose[3] desktop operating system is Microsoft Windows with a market share of around 76.45%. macOS by Apple Inc. is in second place (17.72%), and the varieties of Linux are collectively in third place (1.73%).In the mobile sector (including smartphones and tablets), Android's share is up to 72% in the year 2020. According to third quarter 2016 data, Android's share on smartphones is dominant with 87.5 percent with also a growth rate of 10.3 percent per year, followed by Apple's iOS with 12.1 percent with per year decrease in market share of 5.2 percent, while other operating systems amount to just 0.3 percent  Linux distributions are dominant in the server and supercomputing sectors. Other specialized classes of operating systems (special-purpose operating systems), such as embedded and real-time systems, exist for many applications. Security-focused operating systems also exist. Some operating systems have low system requirements (ex: light-weight Linux distribution). Others may have higher system requirements.
+           Some operating systems require installation or may come pre-installed with purchased computers (OEM-installation), whereas others may run directly from media (i.e. live cd) or flash memory (i.e. USB stick).
+           </p>
+           <h2><strong>-Types of operating systems:</strong></h2>
+          <h3><strong>2)Single- and multi-user</strong></h3>
+           <p>A single-tasking system can only run one program at a time, while a multi-tasking operating system allows more than one program to be running in concurrency. This is achieved by time-sharing, where the available processor time is divided between multiple processes. These processes are each interrupted repeatedly in time slices by a task-scheduling subsystem of the operating system. Multi-tasking may be characterized in preemptive and co-operative types. In preemptive multitasking, the operating system slices the CPU time and dedicates a slot to each of the programs. Unix-like operating systems, such as Solaris and Linux—as well as non-Unix-like, such as AmigaOS—support preemptive multitasking. Cooperative multitasking is achieved by relying on each process to provide time to the other processes in a defined manner. 16-bit versions of Microsoft Windows used cooperative multi-tasking; 32-bit versions of both Windows NT and Win9x used preemptive multi-tasking.</p>
+           <h3><strong>2)Single- and multi-user</strong></h3>
+        <p>Single-user operating systems have no facilities to distinguish users, but may allow multiple programs to run in tandem. A multi-user operating system extends the basic concept of multi-tasking with facilities that identify processes and resources, such as disk space, belonging to multiple users, and the system permits multiple users to interact with the system at the same time. Time-sharing operating systems schedule tasks for efficient use of the system and may also include accounting software for cost allocation of processor time, mass storage, printing, and other resources to multiple users.
+            <h3><strong>3)Distributed</strong></h3>
+            <P>A distributed operating system manages a group of distinct, networked computers and makes them appear to be a single computer, as all computations are distributed (divided amongst the constituent computers).
+            </P>
+            <h3><strong>4)Templated</strong></h3>
+            <P>In the distributed and cloud computing context of an OS, templating refers to creating a single virtual machine image as a guest operating system, then saving it as a tool for multiple running virtual machines. The technique is used both in virtualization and cloud computing management, and is common in large server warehouses. </P>
+            <h3><strong>5)Embedded</strong></h3>
+            <P>Embedded operating systems are designed to be used in embedded computer systems. They are designed to operate on small machines with less autonomy (ex: PDAs). They are very compact and extremely efficient by design, and are able to operate with a limited amount of resources. Windows CE and Minix 3 are some examples of embedded operating systems0</P>
+            <h3><strong>6)Real-time</strong></h3>
+            <P>A real-time operating system is an operating system that guarantees to process events or data by a specific moment in time. A real-time operating system may be single- or multi-tasking, but when multitasking, it uses specialized scheduling algorithms so that a deterministic nature of behavior is achieved. Such an event-driven system switches between tasks based on their priorities or external events, whereas time-sharing operating systems switch tasks based on clock interrupts.<p>
+            <h3><strong>7)Library</strong></h3>
+            <P>A library operating system is one in which the services that a typical operating system provides, such as networking, are provided in the form of libraries and composed with the application and configuration code to construct a unikernel: a specialized, single address space, machine image that can be deployed to cloud or embedded environments.</P>
+            <h2><strong>-History:</strong></h2>
+            <h3><strong>-Microcomputers:</strong></h3>
+            <P>The first microcomputers did not have the capacity or need for the elaborate operating systems that had been developed for mainframes and minis; minimalistic operating systems were developed, often loaded from ROM and known as monitors. One notable early disk operating system was CP/M, which was supported on many early microcomputers and was closely imitated by Microsoft's MS-DOS, which became widely popular as the operating system chosen for the IBM PC (IBM's version of it was called IBM DOS or PC DOS). In the 1980s, Apple Computer Inc. (now Apple Inc.) abandoned its popular Apple II series of microcomputers to introduce the Apple Macintosh computer with an innovative graphical user interface (GUI) to the Mac OS.
+                The introduction of the Intel 80386 CPU chip in October 1985, with 32-bit architecture and paging capabilities, provided personal computers with the ability to run multitasking operating systems like those of earlier minicomputers and mainframes. Microsoft responded to this progress by hiring Dave Cutler, who had developed the VMS operating system for Digital Equipment Corporation. He would lead the development of the Windows NT operating system, which continues to serve as the basis for Microsoft's operating systems line. Steve Jobs, a co-founder of Apple Inc., started NeXT Computer Inc., which developed the NEXTSTEP operating system. NEXTSTEP would later be acquired by Apple Inc. and used, along with code from FreeBSD as the core of Mac OS X (macOS after latest name change).
+                The GNU Project was started by activist and programmer Richard Stallman with the goal of creating a complete free software replacement to the proprietary UNIX operating system. While the project was highly successful in duplicating the functionality of various parts of UNIX, development of the GNU Hurd kernel proved to be unproductive. In 1991, Finnish computer science student Linus Torvalds, with cooperation from volunteers collaborating over the Internet, released the first version of the Linux kernel. It was soon merged with the GNU user space components and system software to form a complete operating system. Since then, the combination of the two major components has usually been referred to as simply "Linux" by the software industry, a naming convention that Stallman and the Free Software Foundation remain opposed to, preferring the name GNU/Linux. The Berkeley Software Distribution, known as BSD, is the UNIX derivative distributed by the University of California, Berkeley, starting in the 1970s. Freely distributed and ported to many minicomputers, it eventually also gained a following for use on PCs, mainly as FreeBSD, NetBSD and OpenBSD.
+            </P>
+            <h2><strong>-Examples:</strong></h2>
+            <ul>
+                <h2><li><a href="MicrosoftWindows.html">Microsoft Windows</a></li></h2>
+                <h2><li><a href="MacOS.html">MacOS</a></li></h2>
+                <h2><li><a href="linux.html">Linux</a></li></h2>
+                <h2><li><a href="ChromeOS.html">Chrome OS</a></li></h2>
+
+                  &nbsp;      &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <h2><strong>Made by : Ahmed Sameh Sayed
+                      Group 1 Sec 3
+                  </strong></h2>
+
+            </ul>
+            <style>
+                table, th, td {
+                  border: 1px solid black;
+                }
+                </style>
+                </head>
+                <body>
+                
+                <h1>Comparison betwwen OS</h1>
+                
+                <table>
+                  <tr>
+                    <th>P.O.C</th>
+                    <th>MicrosoftWindows</th>
+                    <th>Linux</th>
+                    <th>MacOS</th>
+                    <th>ChromeOS</th>
+                  </tr>
+                  <tr>
+                    <td>Security</td>
+                    <td>moderate</td>
+                    <td>highly secures</td>
+                    <td>highly secures</td>
+                    <td>highly secures</td>
+                    
+                  </tr>
+                  <tr>
+                    <td>Kernel Type</td>
+                    <td>Hybrid with modules</td>
+                    <td>Monolithic with modules</td>
+                    <td>Hybrid with modules</td>
+                    <td>Monolithic with modules</td>
+                  </tr>
+                  <tr>
+                      <td>File Systems Supported</td>
+                      <td>NTFS, FAT exFAT ISO 9660, UDF; 3rd-party drivers support ext2, ext3, ReiserFS,[t 10] HFS+, FATX, and HFS (with third party driver)</td>
+                      <td>ext2, ext3, ext4, btrfs, ReiserFS, FAT, ISO 9660, UDF, NFS, and others</td>
+                      <td>HFS+ (default on hard drives, and on flash drives up to Sierra), APFS (default on flash drives in High Sierra), HFS, UFS, AFP, ISO 9660, FAT, UDF, NFS, SMBFS, NTFS (read only), FTP, WebDAV, ZFS (experimental)</td>
+                      <td>eCryptfs, NTFS, FAT, FAT16, FAT32, exFAT, ext2, ext3, ext4, HFS+, MTP (read and write), ISO9660 (read-only), UDF (read-only) </td>
+                </table>
+                
+
+
+          </body>
+</html>
